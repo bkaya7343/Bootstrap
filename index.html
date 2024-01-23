@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  </head>
+
+  <body class="bg-dark text-white">
+    <div class="jumbotron bg-success text-center" style="margin-bottom:0">
+  <h1>Benim Değerli Web Sayfam</h1>
+  <p>Bu sayfada kendime ait bazı anektodlar paylaşacağım.</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+  <a class="navbar-brand" href="#">Hayatım</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Çocukluğum</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ergenliğim</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Yetişkinliğim</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Hakkımda</h2>
+      <h5>Fotoğrafım</h5>
+      <div class="fakeimg"><img src="https://media.licdn.com/dms/image/D4E03AQHxeUj1pNgDTQ/profile-displayphoto-shrink_800_800/0/1674545833648?e=1711584000&v=beta&t=GhFTRBdkdIsoNr5jUPLvZDIuXpBxmK5Ei6gV2Ea7RVc" width="150px" alt="Image Broken"></div>
+      
+      <h3>Daha öncekiler</h3>
+      <p>Aşağıdan ulaşabilirsiniz.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">2023</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">2022</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">2021</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">İnaktif</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Kalemimden Dökülenler</h2>
+      <h5>Tarih, Ocak 7, 2024</h5>
+      <div class="fakeimg"><img src="data:image/jpeg;base64,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"></div>
+      <p>Bugünüm...</p>
+      <p>Bugün bir sızı gibi uyandım. Sürmek istemiyormuşçasına. Ama sürmeye mani olamıyormuşçasına. Bitmek istiyor ama bir o kadar da bitemiyor.</p>
+      <br>
+      <h2>Gücüm ve Azmim</h2>
+      <h5>Tarih, Ocak 2, 2024</h5>
+      <div class="fakeimg"><img src="https://www.gencdergisi.com/resimler/makale/buyuk/353_201120151603_454294936.JPG" width="200px"></div>
+      <p>Olmazsa olmaz...</p>
+      <p>Üstesinden geleceğim, biliyorum. Daha önce olduğunda da üstesinden gelmiştim. Ama daha önce olmamış gibi endişeleniyorum. Ama bu endişe yersiz, biliyorum.</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center text-body" style="margin-bottom:0">
+  <p>Tüm hakları saklıdır.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </body>
+</html>
